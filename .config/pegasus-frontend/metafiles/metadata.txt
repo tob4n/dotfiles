@@ -1,0 +1,5 @@
+# SNES
+collection: Super Nintendo Entertainment System
+shortname: snes
+extensions: sfc
+launch: snes9x "{file.path}"
