@@ -1,5 +1,23 @@
-# SNES
-collection: Super Nintendo Entertainment System
-shortname: snes
-extensions: sfc
-launch: snes9x "{file.path}"
+# DS
+collection: Nintendo DS
+shortname: DS
+extensions: nds
+launch: melonDS "{file.path}"
+
+# 3DS
+collection: Nintendo 3DS
+shortname: 3DS
+extensions: 3ds
+launch: lime3ds "{file.path}"
+
+# Switch
+collection: Nintendo Switch
+shortname: Switch
+extensions: kp, nca, nro, nso, nsp, xci
+launch: ryujinx "{file.path}"
+
+# PS3
+collection: PlayStation 3
+shortname: PS3
+extensions: bin
+launch: rpcs3 "{file.path}"
